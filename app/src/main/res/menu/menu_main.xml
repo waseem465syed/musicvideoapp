@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akinsatimi.musicvideoapp.MainActivity">
+
+    <item
+        android:id="@+id/openMusicFragment"
+        android:orderInCategory="100"
+        android:title="@string/music"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/openTakeVideoFragment"
+        android:orderInCategory="200"
+        android:title="@string/take_video"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/openWatchVideoFragment"
+        android:orderInCategory="300"
+        android:title="@string/watch_video"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/openViewImageFragment"
+        android:orderInCategory="400"
+        android:title="View Image"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/resetFragment"
+        android:orderInCategory="500"
+        android:title="@string/close_all"
+        app:showAsAction="ifRoom" />
+</menu>
